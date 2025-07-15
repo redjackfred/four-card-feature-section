@@ -1,6 +1,10 @@
 import "./App.css";
 import Header from "./Header";
 import Card from "./Card";
+import IconSupervisor from "./assets/images/icon-supervisor.svg";
+import IconTeamBuilder from "./assets/images/icon-team-builder.svg";
+import IconKarma from "./assets/images/icon-karma.svg";
+import IconCalculator from "./assets/images/icon-calculator.svg";
 
 function App() {
 	const cards = [
@@ -8,27 +12,27 @@ function App() {
 			title: "Supervisor",
 			description: "Monitors activity to identify project roadblocks",
 			color: "bg-cyan",
-			iconURL: "./src/assets/images/icon-supervisor.svg",
+			iconURL: IconSupervisor,
 		},
 		{
 			title: "Team Builder",
 			description:
 				"Scans our talent network to create the optimal team for your project",
 			color: "bg-red",
-			iconURL: "./src/assets/images/icon-team-builder.svg",
+			iconURL: IconTeamBuilder,
 		},
 		{
 			title: "Karma",
 			description: "Regularly evaluates our talent to ensure quality",
 			color: "bg-orange",
-			iconURL: "./src/assets/images/icon-karma.svg",
+			iconURL: IconKarma,
 		},
 		{
 			title: "Calculator",
 			description:
 				"Uses data from past projects to provide better delivery estimates",
 			color: "bg-blue",
-			iconURL: "./src/assets/images/icon-calculator.svg",
+			iconURL: IconCalculator,
 		},
 	];
 	return (
